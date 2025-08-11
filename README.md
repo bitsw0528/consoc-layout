@@ -12,11 +12,12 @@ only OSX support currently, ISO 101 namely EN_UK keyboard
 
 ## Layout
 
-
+![CONSOC](https://github.com/user-attachments/assets/f5b8ddcd-99b5-48e8-94bc-b35987040dd1)
 
 ## Heatmap
 
-
+![Layout1](https://github.com/user-attachments/assets/c25b0bb4-5c8d-45c3-a720-c12d34b8d850)
+![Heatmap1](https://github.com/user-attachments/assets/59776516-67cb-476f-951c-c8a08d4dce46)
 
 ## Comparison to other layouts
 
@@ -138,7 +139,8 @@ optimized after really
 
 Heatmap:
 
-
+![Layout2](https://github.com/user-attachments/assets/7efa4371-6788-475c-bc4a-615f2eafbb53)
+![Heatmap2](https://github.com/user-attachments/assets/9fb711be-0e80-4642-8f71-1bb5db11cf10)
 
 Comparison to other layouts:
 

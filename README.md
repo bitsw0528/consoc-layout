@@ -33,7 +33,7 @@ all data from ISO 102 keyboard simulation*
 
 ## Cyanophage Layout Playground
 
-https://cyanophage.github.io/playground.html?layout=ghdwz%2Furo%2Cycntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l
+https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy%2Ccntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l
 
 ## Ascii Version
 
@@ -41,7 +41,7 @@ https://cyanophage.github.io/playground.html?layout=ghdwz%2Furo%2Cycntsb-elaijmk
 nearly?
 
 1  2  3  4  5  6  7  8  9  0  `  =
-g  h  d  w  z  /  u  r  o  ,  y  [
+g  h  d  w  z  /  u  r  o  y  ,  [
 c  n  t  s  b  -  e  l  a  i  j  ]
 p  m  k  v  f  \  ;  '  x  q  .
 ```

@@ -19,7 +19,7 @@ if there's final version I'll name it 'nearest', why? type it out!
 
 | Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| nearly?    | 0.65 | 0.21  | 0.06 | 0.07     | 2.79  | 49.98 | -2.57   |
+| nearly?    | 0.65 | 0.20  | 0.06 | 0.07     | 2.79  | 49.98 | -2.57   |
 |            |      |       |      |          |       |       |         |
 | really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -33,7 +33,7 @@ all data from ISO 102 keyboard simulation*
 
 ## Cyanophage Layout Playground
 
-https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy.cntsb%3Belaijmkvf%5C-%27xq%2Cp%5Eback&mode=iso&lan=english&thumb=l
+https://cyanophage.github.io/playground.html?layout=ghdwz%2Furo%2Cycntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l
 
 ## Ascii Version
 
@@ -41,9 +41,9 @@ https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy.cntsb%3Belaijmk
 nearly?
 
 1  2  3  4  5  6  7  8  9  0  `  =
-g  h  d  w  z  /  u  r  o  y  .  [
-c  n  t  s  b  ;  e  l  a  i  j  ]
-p  m  k  v  f  \  -  '  x  q  ,
+g  h  d  w  z  /  u  r  o  ,  y  [
+c  n  t  s  b  -  e  l  a  i  j  ]
+p  m  k  v  f  \  ;  '  x  q  .
 ```
 
 ## Attachments

@@ -7,7 +7,6 @@ got it's name because 'nearly' types so smooth in this layout
 one of its kind 'redirect-rolls' hack, so actually higher trigram rolls...  
 special thanks to ‘really?’ layout... wow it's cyan's own layout, brilliant~  
 if there's a final version I'll name it umm... 'nearest'?  
-https://mathematicalmulticore.wordpress.com/2010/06/24/new-keyboard-layout-project-have-we-been-mistaken-all-along/
 
 ## Layout
 

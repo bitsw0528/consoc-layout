@@ -1,12 +1,13 @@
 # nearly? Keyboard Layout
 
 ## Introduction & Merits
-good on all stats  
-ISO 102 angle mod  
+not bad on all stats... or to say high roll low redir as many are looking for?  
+ISO 102 angle mod, always love magic keyboard  
 got it's name because 'nearly' types so smooth in this layout  
-one of its kind 'redirect-rolls' hack, so actuall redir is around 1.50?  
-special thanks to ‘really?’ layout  
-if there's a final version I'll name it 'nearest', why? type it out and you'll see!  
+one of its kind 'redirect-rolls' hack, so actually higher trigram rolls...  
+special thanks to ‘really?’ layout... wow it's cyan's own layout, brilliant~  
+if there's a final version I'll name it umm... 'nearest'?  
+https://mathematicalmulticore.wordpress.com/2010/06/24/new-keyboard-layout-project-have-we-been-mistaken-all-along/
 
 ## Layout
 
@@ -20,9 +21,9 @@ if there's a final version I'll name it 'nearest', why? type it out and you'll s
 
 | Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| nearly?    | 0.65 | 0.20  | 0.06 | 0.07     | 2.79  | 49.98 | -2.57   |
-| v2         | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 50.24 | -2.55   |
-| v3         | 0.65 | 0.32  | 0.13 | 0.11     | 2.06  | 50.04 | -2.55   |
+| nearly?    | 0.65 | 0.20  | 0.06 | 0.07     | 2.79  | 53.49 | -2.57   |
+| 1.1        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
+| 1.2        | 0.65 | 0.32  | 0.13 | 0.11     | 2.06  | 53.22 | -2.55   |
 |            |      |       |      |          |       |       |         |
 | really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -32,16 +33,17 @@ if there's a final version I'll name it 'nearest', why? type it out and you'll s
 | Colemak-dh | 0.91 | 0.41  | 1.27 | 0.15     | 9.22  | 49.20 | -2.93   |
 
 *Balance: e.g. L49%,R51% -> -1.00
-all data from ISO 102 keyboard simulation*
+all data from ISO 102 keyboard simulation; mine's angle mod*
 
 ## Cyanophage Layout Playground
 
+nearly? (relatively high trigram rolls 3.51%, delighted finger usage/distance, but awful pinky usage)
 https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy%2Ccntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l
 
-v2(right index distance too high 43.19 unbearable for me)  
+1.1 (left index finger distance too high: 43.19 unbearable for me)  
 https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l
 
-v3(another approach, I personally like this more, see if I optimize it better) (p.s. I hate punctuations)  
+1.2 (another approach, I personally like this more, see if I optimize it better) (p.s. I hate punctuations)  
 https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l
 
 ## Ascii Version
@@ -69,9 +71,7 @@ p  m  k  v  f  \  ;  '  x  q  .
 ~/Library/Keyboard Layouts
 ```
 
-add file I attached in the repository:
-
-**CONSOC.bundle** (in github this one: CONSOC.bundle.zip)
+add file I attached in the repository: **CONSOC.bundle** (in github this one: CONSOC.bundle.zip)
 
 Log out or restart mac, remember to save your clipboard
 
@@ -81,9 +81,11 @@ now CONSOC layout should be in the place, add it, and all done!
 
 ## keybr.com offline practice setup instruction
 
-follow the instructions below first:
+follow the setup instructions first:
 
 https://github.com/aradzie/keybr.com/blob/master/docs/getting_started.md
+
+---
 
 **finder.app** : tool bar : Go : Go To Folder:
 
@@ -91,7 +93,8 @@ https://github.com/aradzie/keybr.com/blob/master/docs/getting_started.md
 ~/keybr.com/packages/keybr-keyboard/lib: 
 ```
 
-in **layout.ts** add:
+replace the original **layout.ts** with the one in **Attachments**  
+or in **layout.ts** add:
 
 ```
 static readonly EN_CONSOC_ISO = new Layout(
@@ -113,7 +116,10 @@ and
 Layout.EN_CONSOC_ISO,
 ```
 
-in **load.ts** add:
+---
+
+replace the original **load.ts** with the one in **Attachments**  
+or in **load.ts** add:
 
 ```
 import { LAYOUT_EN_CONSOC_ISO } from "./layout/en_consoc_iso.ts";
@@ -125,11 +131,28 @@ and
 [Layout.EN_CONSOC_ISO, LAYOUT_EN_CONSOC_ISO],
 ```
 
+---
+
 in subfolder **layout** add file I attached in the repository:
 
 **en_consoc_iso.ts**
 
-*restart server to take effect use control⌃ + C to terminate keybr.com server if you're already running it*
+---
+
+**finder.app** : tool bar : Go : Go To Folder:
+
+```
+~/keybr.com/packages/keybr-pages-browser/lib: 
+```
+
+replace the original **Template.tsx** with the one in **Attachments**  
+or in **Template.tsx** replace code in **function EnvName** with:
+
+```
+function EnvName() {
+  return null;
+}
+```
 
 in **terminal.app** run commands:
 
@@ -139,8 +162,14 @@ npm run build-dev
 npm start
 ```
 
+*everytime you make change to files, restart server to take effect use control⌃ + C to terminate keybr.com server if you're already running it*
+
+---
+
 in **safari.app** visit website:
 
 http://localhost:3000
+
+personally I'd use safari 'hide distracting items' to hide the sidebar, now it should be looking much nicer~
 
 ## that's all, have fun!

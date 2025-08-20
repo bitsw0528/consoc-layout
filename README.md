@@ -21,7 +21,8 @@ if there's a final version I'll name it 'nearest', why? type it out and you'll s
 | Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
 | nearly?    | 0.65 | 0.20  | 0.06 | 0.07     | 2.79  | 49.98 | -2.57   |
-| v2         | 0.65 | 0.32  | 0.13 | 0.11     | 2.06  | 50.04 | -2.55   |
+| v2         | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 50.24 | -2.55   |
+| v3         | 0.65 | 0.32  | 0.13 | 0.11     | 2.06  | 50.04 | -2.55   |
 |            |      |       |      |          |       |       |         |
 | really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -37,8 +38,11 @@ all data from ISO 102 keyboard simulation*
 
 https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy%2Ccntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l
 
-v2(another approach, I personally like this more, see if I optimize it better p.s. I hate punctuations)  
-https://cyanophage.github.io/playground.html?layout=fdhwx%2Fqrouystncpjelai-kmgb%5C%27z%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l
+v2(right index distance too high 43.19 unbearable for me)  
+https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l
+
+v3(another approach, I personally like this more, see if I optimize it better) (p.s. I hate punctuations)  
+https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l
 
 ## Ascii Version
 

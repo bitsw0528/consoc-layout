@@ -4,8 +4,9 @@
 good on all stats  
 ISO 102 angle mod  
 got it's name because 'nearly' types so smooth in this layout  
-special thanks to ‘really?’ keyboard layout  
-if there's final version I'll name it 'nearest', why? type it out!  
+one of its kind 'redirect-rolls' hack, so actuall redir is around 1.00?  
+special thanks to ‘really?’ layout  
+if there's a final version I'll name it 'nearest', why? type it out and you'll see!  
 
 ## Layout
 

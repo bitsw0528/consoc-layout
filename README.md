@@ -57,7 +57,7 @@ p  m  k  v  f  \  ;  '  x  q  .
 
 ## Attachments
 
-press the green 'Code' button on top, then 'Download ZIP'
+press the green 'Code' button on top, then 'Download ZIP'  
 the Attachments are for OSX users only
 
 ## OSX system keyboard install

@@ -36,14 +36,11 @@ all data from ISO 102 keyboard simulation; mine's angle mod*
 
 ## Cyanophage Layout Playground
 
-nearly? (relatively high trigram rolls 3.51%, delighted finger usage/distance, but awful pinky usage)
-https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy%2Ccntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l
+1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy%2Ccntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l) (relatively high trigram rolls 3.51%, low finger usage/distance, but awful pinky usage)
 
-1.1 (left index finger distance too high: 43.19 unbearable for me)  
-https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l
+1.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l) (left index finger distance too high: 43.19 unbearable for me)
 
-1.2 (another approach, I personally like this more, see if I optimize it better) (p.s. I hate punctuations)  
-https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l
+1.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l) (another approach, I personally like this more, see if I can optimize it better) (p.s. I hate punctuations)
 
 ## Ascii Version
 
@@ -58,13 +55,14 @@ p  m  k  v  f  \  ;  '  x  q  .
 
 ## Attachments
 
-.bundle : OSX keyboard layout file
+see the right column there's a Releases title, click the link to jump to the release page
 
-.ts : keybr.com custom keyboard layout file (ignore if 'q' displayed the wrong place, a keybr.com side bug)
+then click the **Attachments** to download the files
+## OSX system keyboard install
 
-## OSX system customized keyboard install instruction
+double click **CONSOC.bundle.zip** to extract the file, then double click on this **CONSOC.bundle** to call keyboard installer, click either icons to automatically install the layout
 
-**finder.app** : tool bar : Go : Go To Folder:
+or in **finder.app** : tool bar : Go : Go To Folder (command⌘ + shift⇧ + G in finder.app):
 
 ```
 ~/Library/Keyboard Layouts
@@ -72,88 +70,90 @@ p  m  k  v  f  \  ;  '  x  q  .
 
 add file I attached in the repository: **CONSOC.bundle** (in github this one: CONSOC.bundle.zip)
 
+---
+
 Log out or restart mac, remember to save your clipboard
 
 in **System Settings.app** : Keyboard : Text Input : Edit : left bottom corner '+'
 
 now CONSOC layout should be in the place, add it, and all done!
 
-## keybr.com offline practice setup instruction
+## keybr.com offline practice setup
 
-follow the setup instructions first:
-
-https://github.com/aradzie/keybr.com/blob/master/docs/getting_started.md
+follow [this instruction](https://github.com/aradzie/keybr.com/blob/master/docs/getting_started.md) to setup keybr.com self host server before configuration :
 
 ---
 
-**finder.app** : tool bar : Go : Go To Folder:
+**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
 
 ```
-~/keybr.com/packages/keybr-keyboard/lib: 
+~/keybr.com/packages/keybr-keyboard/lib
 ```
 
-replace the original **layout.ts** with the one in **Attachments**  
-or in **layout.ts** add:
+replace the original **layout.ts** with the one in **Attachments**
 
-```
-static readonly EN_CONSOC_ISO = new Layout(
-    /* id= */ "en-consoc-iso",
-    /* xid= */ 0xab,
-    /* name= */ "CONSOC",
-    /* family= */ "consoc",
-    /* language= */ Language.EN,
-    /* emulate= */ true,
-    /* geometries= */ new Enum(
-      Geometry.ISO_102,
-    ),
-  );
-```
-
-and
-
-```
-Layout.EN_CONSOC_ISO,
-```
-
----
-
-replace the original **load.ts** with the one in **Attachments**  
-or in **load.ts** add:
-
-```
-import { LAYOUT_EN_CONSOC_ISO } from "./layout/en_consoc_iso.ts";
-```
-
-and
-
-```
-[Layout.EN_CONSOC_ISO, LAYOUT_EN_CONSOC_ISO],
-```
+replace the original **load.ts** with the one in **Attachments**
 
 ---
 
 in subfolder **layout** add file I attached in the repository:
 
-**en_consoc_iso.ts**
+**en_consoc1.0_iso.ts**      **en_consoc1.1_iso.ts**      **en_consoc1.2_iso.ts**
 
 ---
 
-**finder.app** : tool bar : Go : Go To Folder:
+**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
 
 ```
-~/keybr.com/packages/keybr-pages-browser/lib: 
+～/keybr.com/packages/keybr-keyboard/lib/geometry
 ```
 
-replace the original **Template.tsx** with the one in **Attachments**  
-or in **Template.tsx** replace code in **function EnvName** with:
+replace the original **iso_102.ts** with the one in **Attachments**
+
+---
+
+**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
 
 ```
-function EnvName() {
-  return null;
-}
+~/keybr.com/packages/keybr-pages-browser/lib
 ```
 
-in **terminal.app** run commands:
+replace the original **Template.tsx** with the one in **Attachments**
+
+---
+
+**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
+
+```
+~/.local/state/keybr
+```
+
+replace the original **database.sqlite** with the one in **Attachments**  
+
+---
+
+in **terminal.app** run commands (command⌘ + space, type 'terminal', then enter⏎):
+
+**replace 'user' with your custom name e.g. name='Jenny'**
+
+```
+sqlite3 ~/.local/state/keybr/database.sqlite \
+"UPDATE user_external_id SET name='user' WHERE user_id=1;"
+```
+
+---
+
+**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
+
+```
+~/keybr.com/root/public
+```
+
+add your own avatar and rename it **avatar.png**
+
+---
+
+in **terminal.app** run commands (command⌘ + space, type 'terminal', then enter⏎):
 
 ```
 npm run compile
@@ -169,6 +169,6 @@ in **safari.app** visit website:
 
 http://localhost:3000
 
-personally I'd use safari 'hide distracting items' to hide the sidebar, now it should be looking much nicer~
+personally I'd use safari 'hide distracting items' to hide the info sidebar, now it should be looking much nicer~
 
-## that's all, have fun!
+## all thing's done, have fun!

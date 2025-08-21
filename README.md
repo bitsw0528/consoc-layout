@@ -57,9 +57,9 @@ p  m  k  v  f  \  ;  '  x  q  .
 
 ## Attachments
 
-see the right column there's a Releases title, click the link to jump to the release page
+press the green 'Code' button on top, then 'Download ZIP'
+the Attachments are for OSX users only
 
-then click the **Attachments** to download the files
 ## OSX system keyboard install
 
 double click **CONSOC.bundle.zip** to extract the file, then double click on this **CONSOC.bundle** to call keyboard installer, click either icons to automatically install the layout

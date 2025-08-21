@@ -40,7 +40,9 @@ all data from ISO 102 keyboard simulation; mine's angle mod*
 
 1.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l) (left index finger distance too high: 43.19 unbearable for me)
 
-1.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l) (another approach, I personally like this more, see if I can optimize it better) (p.s. I hate punctuations)
+1.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l) (another approach, I personally like this more, see if I can optimize it better)
+
+p.s. I hate punctuations
 
 ## Ascii Version
 

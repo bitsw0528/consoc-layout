@@ -10,11 +10,12 @@ if there's a final version I'll name it umm... 'nearest'?
 
 ## Layout
 
-
+![layout](https://github.com/user-attachments/assets/0e10124c-a9eb-4cf9-acab-c4c2dcdf222c)
 
 ## Heatmap
 
-
+![Heatmap1](https://github.com/user-attachments/assets/d8fe7c98-7b13-4ebf-a02c-c75006e74921)
+![Heatmap2](https://github.com/user-attachments/assets/6302b074-3d65-4bec-9757-f757eff98f7b)
 
 ## Comparison to other layouts
 

@@ -23,7 +23,8 @@ if there's a final version I'll name it umm... 'nearest'?
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
 | nearly?    | 0.65 | 0.20  | 0.06 | 0.07     | 2.79  | 53.49 | -2.57   |
 | 1.1        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
-| 1.2        | 0.65 | 0.32  | 0.13 | 0.11     | 2.06  | 53.22 | -2.55   |
+| 1.2        | 0.65 | 0.32  | 0.13 | 0.10     | 2.21  | 52.62 | -2.55   |
+| 1.3        | 0.67 | 0.32  | 0.11 | 0.10     | 2.02  | 53.02 | -2.55   |
 |            |      |       |      |          |       |       |         |
 | really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -41,7 +42,9 @@ all data from ISO 102 keyboard simulation; mine's angle mod*
 
 1.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l) (left index finger distance too high: 43.19 unbearable for me)
 
-1.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwx%2Fzrouystncpjelai-kmgb%5C%27q%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l) (another approach, I personally like this more, see if I can optimize it better)
+1.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fhdwx%2Fqrouysntcgjelai-mkbp%5C%27z%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l) (another approach, I personally like this more, see if I can optimize it better)
+
+1.3 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwx%2Fqrouycntsbjelai-mkfv%5C%27z%2C.%3Bp%5Eback&mode=iso&lan=english&thumb=l) (after researching I reversed some home row changes)
 
 p.s. I hate punctuations
 
@@ -115,8 +118,6 @@ replace the original **iso_102.ts** with the one in **Attachments**
 
 ---
 
-**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
-
 ```
 ~/keybr.com/packages/keybr-pages-browser/lib
 ```
@@ -124,8 +125,6 @@ replace the original **iso_102.ts** with the one in **Attachments**
 replace the original **Template.tsx** with the one in **Attachments**
 
 ---
-
-**finder.app** : tool bar : Go : Go To Folder (or command⌘ + shift⇧ + G in finder.app):
 
 ```
 ~/.local/state/keybr

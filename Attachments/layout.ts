@@ -202,6 +202,16 @@ export class Layout implements XEnumItem {
     /* geometries= */ new Enum(
       Geometry.ISO_102),
   );
+  static readonly EN_CONSOC_1_3_ISO = new Layout(
+    /* id= */ "en-consoc1.3-iso",
+    /* xid= */ 0xae,
+    /* name= */ "Nearly1.3",
+    /* family= */ "consoc1.3",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ISO_102),
+  );
   static readonly EN_JP = new Layout(
     /* id= */ "en-jp",
     /* xid= */ 0x12,
@@ -1226,6 +1236,7 @@ export class Layout implements XEnumItem {
     Layout.EN_CONSOC_1_0_ISO,
     Layout.EN_CONSOC_1_1_ISO,
     Layout.EN_CONSOC_1_2_ISO,
+    Layout.EN_CONSOC_1_3_ISO,
     Layout.EN_WORKMAN,
     Layout.EN_CANARY,
     Layout.EN_CANARY_MATRIX,

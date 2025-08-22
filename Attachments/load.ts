@@ -38,6 +38,7 @@ import { LAYOUT_EN_COLEMAK_DH_MATRIX } from "./layout/en_colemak_dh_matrix.ts";
 import { LAYOUT_EN_CONSOC_1_0_ISO } from "./layout/en_consoc1.0_iso.ts";
 import { LAYOUT_EN_CONSOC_1_1_ISO } from "./layout/en_consoc1.1_iso.ts";
 import { LAYOUT_EN_CONSOC_1_2_ISO } from "./layout/en_consoc1.2_iso.ts";
+import { LAYOUT_EN_CONSOC_1_3_ISO } from "./layout/en_consoc1.3_iso.ts";
 import { LAYOUT_EN_DVORAK } from "./layout/en_dvorak.ts";
 import { LAYOUT_EN_DVORAK_PROG } from "./layout/en_dvorak_prog.ts";
 import { LAYOUT_EN_ENGRAM } from "./layout/en_engram.ts";
@@ -126,6 +127,7 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.EN_CONSOC_1_0_ISO, LAYOUT_EN_CONSOC_1_0_ISO],
   [Layout.EN_CONSOC_1_1_ISO, LAYOUT_EN_CONSOC_1_1_ISO],
   [Layout.EN_CONSOC_1_2_ISO, LAYOUT_EN_CONSOC_1_2_ISO],
+  [Layout.EN_CONSOC_1_3_ISO, LAYOUT_EN_CONSOC_1_3_ISO],
   [Layout.EN_DVORAK, LAYOUT_EN_DVORAK],
   [Layout.EN_DVORAK_PROG, LAYOUT_EN_DVORAK_PROG],
   [Layout.EN_ENGRAM, LAYOUT_EN_ENGRAM],

@@ -1,7 +1,7 @@
 # consoc Keyboard Layout
 
 ## Introduction & Merits
-not bad on all stats... or to say high roll low redir as many are looking for?  
+not bad on all stats  
 ISO 102 angle mod, conventional keyboard  
 
 ## Layout
@@ -17,9 +17,9 @@ ISO 102 angle mod, conventional keyboard
 
 | Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| nearly?    | 0.65 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
 | 0.1        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
 | 0.2        | 0.67 | 0.32  | 0.11 | 0.10     | 2.02  | 53.02 | -2.55   |
+| consoc     | 0.65 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
 |            |      |       |      |          |       |       |         |
 | really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -30,11 +30,11 @@ ISO 102 angle mod, conventional keyboard
 
 ## Cyanophage Layout Playground
 
-1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Fuloy%2Ccntsb-eraijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l)
-
 0.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l)
 
 0.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwx%2Fqrouycntsbjelai-mkfv%5C%27z%2C.%3Bp%5Eback&mode=iso&lan=english&thumb=l)
+
+1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Fuloy%2Ccntsb-eraijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l)
 
 p.s. I hate punctuations
 

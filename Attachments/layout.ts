@@ -174,7 +174,7 @@ export class Layout implements XEnumItem {
   static readonly EN_CONSOC_1_0_ISO = new Layout(
     /* id= */ "en-consoc1.0-iso",
     /* xid= */ 0xab,
-    /* name= */ "Nearly1.0",
+    /* name= */ "Consoc1.0",
     /* family= */ "consoc1.0",
     /* language= */ Language.EN,
     /* emulate= */ true,
@@ -182,31 +182,21 @@ export class Layout implements XEnumItem {
       Geometry.ISO_102,
     ),
   );
-  static readonly EN_CONSOC_1_1_ISO = new Layout(
+  static readonly EN_CONSOC_0_1_ISO = new Layout(
     /* id= */ "en-consoc1.1-iso",
     /* xid= */ 0xac,
-    /* name= */ "Nearly1.1",
-    /* family= */ "consoc1.1",
+    /* name= */ "Consoc0.1",
+    /* family= */ "consoc0.1",
     /* language= */ Language.EN,
     /* emulate= */ true,
     /* geometries= */ new Enum(
       Geometry.ISO_102),
   );
-  static readonly EN_CONSOC_1_2_ISO = new Layout(
+  static readonly EN_CONSOC_0_2_ISO = new Layout(
     /* id= */ "en-consoc1.2-iso",
     /* xid= */ 0xad,
-    /* name= */ "Nearly1.2",
-    /* family= */ "consoc1.2",
-    /* language= */ Language.EN,
-    /* emulate= */ true,
-    /* geometries= */ new Enum(
-      Geometry.ISO_102),
-  );
-  static readonly EN_CONSOC_1_3_ISO = new Layout(
-    /* id= */ "en-consoc1.3-iso",
-    /* xid= */ 0xae,
-    /* name= */ "Nearly1.3",
-    /* family= */ "consoc1.3",
+    /* name= */ "Consoc0.2",
+    /* family= */ "consoc0.2",
     /* language= */ Language.EN,
     /* emulate= */ true,
     /* geometries= */ new Enum(

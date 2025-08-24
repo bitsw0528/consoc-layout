@@ -6,12 +6,12 @@ ISO 102 angle mod, conventional keyboard
 
 ## Layout
 
-![layout]()
+![layout](https://github.com/user-attachments/assets/1c65e37f-f9e1-435c-a48c-003a63177550)
 
 ## Heatmap
 
-![Heatmap1]()
-![Heatmap2]()
+![Heatmap1](https://github.com/user-attachments/assets/00e45a01-3fd3-46a3-a9ff-62050fe12506)
+![Heatmap2](https://github.com/user-attachments/assets/6164953f-c438-4e91-afb5-d4415f402dd1)
 
 ## Comparison to other layouts
 

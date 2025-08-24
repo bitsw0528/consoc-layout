@@ -183,7 +183,7 @@ export class Layout implements XEnumItem {
     ),
   );
   static readonly EN_CONSOC_0_1_ISO = new Layout(
-    /* id= */ "en-consoc1.1-iso",
+    /* id= */ "en-consoc0.1-iso",
     /* xid= */ 0xac,
     /* name= */ "Consoc0.1",
     /* family= */ "consoc0.1",
@@ -193,7 +193,7 @@ export class Layout implements XEnumItem {
       Geometry.ISO_102),
   );
   static readonly EN_CONSOC_0_2_ISO = new Layout(
-    /* id= */ "en-consoc1.2-iso",
+    /* id= */ "en-consoc0.2-iso",
     /* xid= */ 0xad,
     /* name= */ "Consoc0.2",
     /* family= */ "consoc0.2",

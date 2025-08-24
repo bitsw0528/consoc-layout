@@ -1,30 +1,25 @@
-# nearly? Keyboard Layout
+# consoc Keyboard Layout
 
 ## Introduction & Merits
-not bad on all stats... or to say high roll low redir as many are looking for?  
-ISO 102 angle mod, always love magic keyboard  
-got it's name because 'nearly' types so smooth in this layout  
-one of its kind 'redirect-rolls' hack, so actually higher trigram rolls...  
-special thanks to ‘really?’ layout... wow it's cyan's own layout, brilliant~  
-if there's a final version I'll name it umm... 'nearest'?  
+not bad on all stats  
+ISO 102 angle mod, conventional keyboard  
 
 ## Layout
 
-![layout](https://github.com/user-attachments/assets/0e10124c-a9eb-4cf9-acab-c4c2dcdf222c)
+![layout]()
 
 ## Heatmap
 
-![Heatmap1](https://github.com/user-attachments/assets/d8fe7c98-7b13-4ebf-a02c-c75006e74921)
-![Heatmap2](https://github.com/user-attachments/assets/6302b074-3d65-4bec-9757-f757eff98f7b)
+![Heatmap1]()
+![Heatmap2]()
 
 ## Comparison to other layouts
 
 | Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| nearly?    | 0.65 | 0.20  | 0.06 | 0.07     | 2.79  | 53.49 | -2.57   |
-| 1.1        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
-| 1.2        | 0.65 | 0.32  | 0.13 | 0.10     | 2.21  | 52.62 | -2.55   |
-| 1.3        | 0.67 | 0.32  | 0.11 | 0.10     | 2.02  | 53.02 | -2.55   |
+| 0.1        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
+| 0.2        | 0.67 | 0.32  | 0.11 | 0.10     | 2.02  | 53.02 | -2.55   |
+| consoc     | 0.65 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
 |            |      |       |      |          |       |       |         |
 | really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -33,29 +28,24 @@ if there's a final version I'll name it umm... 'nearest'?
 | Canary     | 0.66 | 0.15  | 1.75 | 0.42     | 6.95  | 50.36 | -6.34   |
 | Colemak-dh | 0.91 | 0.41  | 1.27 | 0.15     | 9.22  | 49.20 | -2.93   |
 
-*Balance: e.g. L49%,R51% -> -1.00
-all data from ISO 102 keyboard simulation; mine's angle mod*
-
 ## Cyanophage Layout Playground
 
-1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Furoy%2Ccntsb-elaijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l) (relatively high trigram rolls 3.51%, low finger usage/distance, but awful pinky usage)
+0.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l)
 
-1.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l) (left index finger distance too high: 43.19 unbearable for me)
+0.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwx%2Fqrouycntsbjelai-mkfv%5C%27z%2C.%3Bp%5Eback&mode=iso&lan=english&thumb=l)
 
-1.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fhdwx%2Fqrouysntcgjelai-mkbp%5C%27z%2C.%3Bv%5Eback&mode=iso&lan=english&thumb=l) (another approach, I personally like this more, see if I can optimize it better)
-
-1.3 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwx%2Fqrouycntsbjelai-mkfv%5C%27z%2C.%3Bp%5Eback&mode=iso&lan=english&thumb=l) (after researching I reversed some home row changes)
+1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Fuloy%2Ccntsb-eraijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l)
 
 p.s. I hate punctuations
 
 ## Ascii Version
 
 ```
-nearly?
+consoc
 
 1  2  3  4  5  6  7  8  9  0  `  =
-g  h  d  w  z  /  u  r  o  y  ,  [
-c  n  t  s  b  -  e  l  a  i  j  ]
+g  h  d  w  z  /  u  l  o  y  ,  [
+c  n  t  s  b  -  e  r  a  i  j  ]
 p  m  k  v  f  \  ;  '  x  q  .
 ```
 
@@ -104,7 +94,7 @@ replace the original **load.ts** with the one in **Attachments**
 
 in subfolder **layout** add file I attached in the repository:
 
-**en_consoc1.0_iso.ts**      **en_consoc1.1_iso.ts**      **en_consoc1.2_iso.ts**
+**en_consoc1.0_iso.ts**      **en_consoc0.1_iso.ts**      **en_consoc0.2_iso.ts**
 
 ---
 

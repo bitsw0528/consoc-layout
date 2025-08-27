@@ -3,7 +3,7 @@
 import { type CharacterDict } from "../types.ts";
 
 // prettier-ignore
-export const LAYOUT_EN_CONSOC_1_0_A_ISO: CharacterDict = {
+export const LAYOUT_EN_CONSOC_0_3_ISO: CharacterDict = {
   IntlBackslash: [/* SECTION SIGN */ 0x00a7, /* PLUS-MINUS SIGN */ 0x00b1],
   Digit1: [/* DIGIT ONE */ 0x0031, /* EXCLAMATION MARK */ 0x0021],
   Digit2: [/* DIGIT TWO */ 0x0032, /* QUOTATION MARK */ 0x0022],

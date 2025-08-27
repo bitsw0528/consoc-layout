@@ -3,7 +3,7 @@
 import { type CharacterDict } from "../types.ts";
 
 // prettier-ignore
-export const LAYOUT_EN_CONSOC_1_0_B_ISO: CharacterDict = {
+export const LAYOUT_EN_CONSOC_1_0_ISO: CharacterDict = {
   IntlBackslash: [/* SECTION SIGN */ 0x00a7, /* PLUS-MINUS SIGN */ 0x00b1],
   Digit1: [/* DIGIT ONE */ 0x0031, /* EXCLAMATION MARK */ 0x0021],
   Digit2: [/* DIGIT TWO */ 0x0032, /* QUOTATION MARK */ 0x0022],
@@ -21,8 +21,8 @@ export const LAYOUT_EN_CONSOC_1_0_B_ISO: CharacterDict = {
   KeyW: [/* LATIN SMALL LETTER D */ 0x0064, /* LATIN CAPITAL LETTER D */ 0x0044],
   KeyE: [/* LATIN SMALL LETTER H */ 0x0068, /* LATIN CAPITAL LETTER H */ 0x0048],
   KeyR: [/* LATIN SMALL LETTER G */ 0x0067, /* LATIN CAPITAL LETTER G */ 0x0047],
-  KeyT: [/* LATIN SMALL LETTER V */ 0x0076, /* LATIN CAPITAL LETTER V */ 0x0056],
-  KeyY: [/* SOLIDUS */ 0x002f, /* QUESTION MARK */ 0x003f],
+  KeyT: [/* LATIN SMALL LETTER Z */ 0x007a, /* LATIN CAPITAL LETTER Z */ 0x005a],
+  KeyY: [/* REVERSE SOLIDUS */ 0x005c, /* VERTICAL LINE */ 0x007c],
   KeyU: [/* APOSTROPHE */ 0x0027, /* QUOTATION MARK */ 0x0022],
   KeyI: [/* LATIN SMALL LETTER L */ 0x006c, /* LATIN CAPITAL LETTER L */ 0x004c],
   KeyO: [/* LATIN SMALL LETTER O */ 0x006f, /* LATIN CAPITAL LETTER O */ 0x004f],
@@ -41,7 +41,7 @@ export const LAYOUT_EN_CONSOC_1_0_B_ISO: CharacterDict = {
   KeyL: [/* LATIN SMALL LETTER A */ 0x0061, /* LATIN CAPITAL LETTER A */ 0x0041],
   Semicolon: [/* LATIN SMALL LETTER I */ 0x0069, /* LATIN CAPITAL LETTER I */ 0x0049],
   Quote: [/* FULL STOP */ 0x002e, /* GREATER-THAN SIGN */ 0x003e],
-  Backquote: [/* LATIN SMALL LETTER Z */ 0x007a, /* LATIN CAPITAL LETTER Z */ 0x005a],
+  Backquote: [/* LATIN SMALL LETTER V */ 0x0076, /* LATIN CAPITAL LETTER V */ 0x0056],
   KeyZ: [/* LATIN SMALL LETTER K */ 0x006b, /* LATIN CAPITAL LETTER K */ 0x004b],
   KeyX: [/* LATIN SMALL LETTER M */ 0x006d, /* LATIN CAPITAL LETTER M */ 0x004d],
   KeyC: [/* LATIN SMALL LETTER W */ 0x0077, /* LATIN CAPITAL LETTER W */ 0x0057],
@@ -51,6 +51,6 @@ export const LAYOUT_EN_CONSOC_1_0_B_ISO: CharacterDict = {
   KeyM: [/* LATIN SMALL LETTER U */ 0x0075, /* LATIN CAPITAL LETTER U */ 0x0055],
   Comma: [/* LATIN SMALL LETTER X */ 0x0078, /* LATIN CAPITAL LETTER X */ 0x0058],
   Period: [/* LATIN SMALL LETTER Q */ 0x0071, /* LATIN CAPITAL LETTER Q */ 0x0051],
-  Slash: [/* REVERSE SOLIDUS */ 0x005c, /* VERTICAL LINE */ 0x007c],
+  Slash: [/* SOLIDUS */ 0x002f, /* QUESTION MARK */ 0x003f],
   Space: [/* SPACE */ 0x0020],
 };

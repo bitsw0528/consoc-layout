@@ -195,11 +195,11 @@ export class Layout implements XEnumItem {
     ),
     /* mod= */ angleMod,
   );
-  static readonly EN_CONSOC_1_0_A_ISO = new Layout(
-    /* id= */ "en-consoc1.0a-iso",
+  static readonly EN_CONSOC_0_3_ISO = new Layout(
+    /* id= */ "en-consoc0.3-iso",
     /* xid= */ 0xad,
-    /* name= */ "Consoc1.0a",
-    /* family= */ "consoc1.0a",
+    /* name= */ "Consoc0.3",
+    /* family= */ "consoc0.3",
     /* language= */ Language.EN,
     /* emulate= */ true,
     /* geometries= */ new Enum(
@@ -207,11 +207,11 @@ export class Layout implements XEnumItem {
     ),
     /* mod= */ angleMod,
   );
-  static readonly EN_CONSOC_1_0_B_ISO = new Layout(
-    /* id= */ "en-consoc1.0b-iso",
+  static readonly EN_CONSOC_1_0_ISO = new Layout(
+    /* id= */ "en-consoc1.0-iso",
     /* xid= */ 0xae,
-    /* name= */ "Consoc1.0b",
-    /* family= */ "consoc1.0b",
+    /* name= */ "Consoc1.0",
+    /* family= */ "consoc1.0",
     /* language= */ Language.EN,
     /* emulate= */ true,
     /* geometries= */ new Enum(
@@ -1242,8 +1242,8 @@ export class Layout implements XEnumItem {
     Layout.EN_COLEMAK_DH_MATRIX,
     Layout.EN_CONSOC_0_1_ISO,
     Layout.EN_CONSOC_0_2_ISO,
-    Layout.EN_CONSOC_1_0_A_ISO,
-    Layout.EN_CONSOC_1_0_B_ISO,
+    Layout.EN_CONSOC_0_3_ISO,
+    Layout.EN_CONSOC_1_0_ISO,
     Layout.EN_WORKMAN,
     Layout.EN_CANARY,
     Layout.EN_CANARY_MATRIX,

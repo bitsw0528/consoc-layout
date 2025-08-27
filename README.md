@@ -21,7 +21,7 @@ ISO 102 angle mod, conventional keyboard
 | 0.2        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
 |            |      |       |      |          |       |       |         |
 | 1.0a       | 0.66 | 0.20  | 0.06 | 0.30     | 2.75  | 53.33 | -2.48   |
-| 1.0b       | 0.58 | 0.19  | 0.12 | 0.32     | 2.79  | 53.52 | -2.48   |
+| 1.0b       | 0.58 | 0.19  | 0.09 | 0.36     | 2.79  | 53.52 | -2.48   |
 |            |      |       |      |          |       |       |         |
 | Really     | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
@@ -38,7 +38,7 @@ ISO 102 angle mod, conventional keyboard
 
 1.0a [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2F%27loy%2Ccntsb-erai.mkvfj%3Buxq%5Cp%5Eback&mode=iso&lan=english&thumb=l)
 
-1.0b [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2F%27loy%2Cstncb-erai.kmgvj%3Buxq%5Cz%5Eback&mode=iso&lan=english&thumb=l)
+1.0b [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhgv%2F%27loy%2Cstncb-erai.kmwpj%3Buxq%5Cz%5Eback&mode=iso&lan=english&thumb=l)
 
 ## Ascii Version
 
@@ -64,9 +64,9 @@ p  m  k  v  f  j  ;  u  x  q  \
 
 1.0b
 1  2  3  4  5  6  7  8  9  0  `  =
-f  d  h  w  p  /  '  l  o  y  ,  [
+f  d  h  g  v  /  '  l  o  y  ,  [
 s  t  n  c  b  -  e  r  a  i  .  ]
-z  k  m  g  v  j  ;  u  x  q  \
+z  k  m  w  p  j  ;  u  x  q  \
 ```
 
 ## Attachments

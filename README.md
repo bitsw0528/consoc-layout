@@ -65,7 +65,7 @@ p  m  k  v  f  j  ;  u  x  q  \
 1.0b
 1  2  3  4  5  6  7  8  9  0  `  =
 f  d  h  w  p  /  '  l  o  y  ,  [
-s  t  n  c  b  j  e  r  a  i  .  ]
+s  t  n  c  b  -  e  r  a  i  .  ]
 z  k  m  g  v  j  ;  u  x  q  \
 ```
 

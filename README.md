@@ -17,11 +17,13 @@ ISO 102 angle mod, conventional keyboard
 
 | Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
 | ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| 0.1        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
-| 0.2        | 0.67 | 0.32  | 0.11 | 0.10     | 2.02  | 53.02 | -2.55   |
-| consoc     | 0.65 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
+| 0.1        | 0.65 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
+| 0.2        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
 |            |      |       |      |          |       |       |         |
-| really?    | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
+| 1.0a       | 0.66 | 0.20  | 0.06 | 0.30     | 2.75  | 53.33 | -2.48   |
+| 1.0b       | 0.58 | 0.19  | 0.12 | 0.32     | 2.79  | 53.52 | -2.48   |
+|            |      |       |      |          |       |       |         |
+| Really     | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
 | Graphite   | 0.68 | 0.24  | 0.87 | 0.95     | 1.80  | 46.01 | -1.74   |
 | Sturdy     | 0.62 | 0.20  | 1.58 | 0.42     | 5.01  | 50.10 | -5.44   |
@@ -30,23 +32,41 @@ ISO 102 angle mod, conventional keyboard
 
 ## Cyanophage Layout Playground
 
-0.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l)
+0.1 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Fuloy%2Ccntsb-eraijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l)
 
-0.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwx%2Fqrouycntsbjelai-mkfv%5C%27z%2C.%3Bp%5Eback&mode=iso&lan=english&thumb=l)
+0.2 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2Fzrouystncbjelai-kmgv%5C%27q%2C.%3Bx%5Eback&mode=iso&lan=english&thumb=l)
 
-1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2Fuloy%2Ccntsb-eraijmkvf%5C%3B%27xq.p%5Eback&mode=iso&lan=english&thumb=l)
+1.0a [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2F%27loy%2Ccntsb-erai.mkvfj%3Buxq%5Cp%5Eback&mode=iso&lan=english&thumb=l)
 
-p.s. I hate punctuations
+1.0b [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwp%2F%27loy%2Cstncb-erai.kmgvj%3Buxq%5Cz%5Eback&mode=iso&lan=english&thumb=l)
 
 ## Ascii Version
 
 ```
 consoc
-
+0.1
 1  2  3  4  5  6  7  8  9  0  `  =
 g  h  d  w  z  /  u  l  o  y  ,  [
 c  n  t  s  b  -  e  r  a  i  j  ]
 p  m  k  v  f  \  ;  '  x  q  .
+
+0.2
+1  2  3  4  5  6  7  8  9  0  `  =
+f  d  h  w  p  /  z  r  o  u  y  [
+s  t  n  c  b  j  e  l  a  i  -  ]
+x  k  m  g  v  \  '  q  ,  .  ;
+
+1.0a
+1  2  3  4  5  6  7  8  9  0  `  =
+g  h  d  w  z  /  '  l  o  y  ,  [
+c  n  t  s  b  -  e  r  a  i  .  ]
+p  m  k  v  f  j  ;  u  x  q  \
+
+1.0b
+1  2  3  4  5  6  7  8  9  0  `  =
+f  d  h  w  p  /  '  l  o  y  ,  [
+s  t  n  c  b  j  e  r  a  i  .  ]
+z  k  m  g  v  j  ;  u  x  q  \
 ```
 
 ## Attachments

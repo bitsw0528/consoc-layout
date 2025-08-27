@@ -35,9 +35,10 @@ import { LAYOUT_EN_COLEMAK_DH_ANSI_WIDE } from "./layout/en_colemak_dh_ansi_wide
 import { LAYOUT_EN_COLEMAK_DH_ISO } from "./layout/en_colemak_dh_iso.ts";
 import { LAYOUT_EN_COLEMAK_DH_ISO_WIDE } from "./layout/en_colemak_dh_iso_wide.ts";
 import { LAYOUT_EN_COLEMAK_DH_MATRIX } from "./layout/en_colemak_dh_matrix.ts";
-import { LAYOUT_EN_CONSOC_1_0_ISO } from "./layout/en_consoc1.0_iso.ts";
 import { LAYOUT_EN_CONSOC_0_1_ISO } from "./layout/en_consoc0.1_iso.ts";
 import { LAYOUT_EN_CONSOC_0_2_ISO } from "./layout/en_consoc0.2_iso.ts";
+import { LAYOUT_EN_CONSOC_1_0_A_ISO } from "./layout/en_consoc1.0a_iso.ts";
+import { LAYOUT_EN_CONSOC_1_0_B_ISO } from "./layout/en_consoc1.0b_iso.ts";
 import { LAYOUT_EN_DVORAK } from "./layout/en_dvorak.ts";
 import { LAYOUT_EN_DVORAK_PROG } from "./layout/en_dvorak_prog.ts";
 import { LAYOUT_EN_ENGRAM } from "./layout/en_engram.ts";
@@ -123,9 +124,10 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.EN_COLEMAK_DH_ISO, LAYOUT_EN_COLEMAK_DH_ISO],
   [Layout.EN_COLEMAK_DH_ISO_WIDE, LAYOUT_EN_COLEMAK_DH_ISO_WIDE],
   [Layout.EN_COLEMAK_DH_MATRIX, LAYOUT_EN_COLEMAK_DH_MATRIX],
-  [Layout.EN_CONSOC_1_0_ISO, LAYOUT_EN_CONSOC_1_0_ISO],
   [Layout.EN_CONSOC_0_1_ISO, LAYOUT_EN_CONSOC_0_1_ISO],
   [Layout.EN_CONSOC_0_2_ISO, LAYOUT_EN_CONSOC_0_2_ISO],
+  [Layout.EN_CONSOC_1_0_A_ISO, LAYOUT_EN_CONSOC_1_0_A_ISO],
+  [Layout.EN_CONSOC_1_0_B_ISO, LAYOUT_EN_CONSOC_1_0_B_ISO],
   [Layout.EN_DVORAK, LAYOUT_EN_DVORAK],
   [Layout.EN_DVORAK_PROG, LAYOUT_EN_DVORAK_PROG],
   [Layout.EN_ENGRAM, LAYOUT_EN_ENGRAM],

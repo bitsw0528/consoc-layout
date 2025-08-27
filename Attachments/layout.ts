@@ -171,36 +171,53 @@ export class Layout implements XEnumItem {
       Geometry.MATRIX,
     ),
   );
-  static readonly EN_CONSOC_1_0_ISO = new Layout(
-    /* id= */ "en-consoc1.0-iso",
-    /* xid= */ 0xab,
-    /* name= */ "Consoc1.0",
-    /* family= */ "consoc1.0",
-    /* language= */ Language.EN,
-    /* emulate= */ true,
-    /* geometries= */ new Enum(
-      Geometry.ISO_102,
-    ),
-  );
   static readonly EN_CONSOC_0_1_ISO = new Layout(
     /* id= */ "en-consoc0.1-iso",
-    /* xid= */ 0xac,
+    /* xid= */ 0xab,
     /* name= */ "Consoc0.1",
     /* family= */ "consoc0.1",
     /* language= */ Language.EN,
     /* emulate= */ true,
     /* geometries= */ new Enum(
-      Geometry.ISO_102),
+      Geometry.ISO_102,
+    ),
+    /* mod= */ angleMod,
   );
   static readonly EN_CONSOC_0_2_ISO = new Layout(
     /* id= */ "en-consoc0.2-iso",
-    /* xid= */ 0xad,
+    /* xid= */ 0xac,
     /* name= */ "Consoc0.2",
     /* family= */ "consoc0.2",
     /* language= */ Language.EN,
     /* emulate= */ true,
     /* geometries= */ new Enum(
-      Geometry.ISO_102),
+      Geometry.ISO_102
+    ),
+    /* mod= */ angleMod,
+  );
+  static readonly EN_CONSOC_1_0_A_ISO = new Layout(
+    /* id= */ "en-consoc1.0a-iso",
+    /* xid= */ 0xad,
+    /* name= */ "Consoc1.0a",
+    /* family= */ "consoc1.0a",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ISO_102,
+    ),
+    /* mod= */ angleMod,
+  );
+  static readonly EN_CONSOC_1_0_B_ISO = new Layout(
+    /* id= */ "en-consoc1.0b-iso",
+    /* xid= */ 0xae,
+    /* name= */ "Consoc1.0b",
+    /* family= */ "consoc1.0b",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ISO_102,
+    ),
+    /* mod= */ angleMod,
   );
   static readonly EN_JP = new Layout(
     /* id= */ "en-jp",
@@ -1223,9 +1240,10 @@ export class Layout implements XEnumItem {
     Layout.EN_COLEMAK_DH_ISO,
     Layout.EN_COLEMAK_DH_ISO_WIDE,
     Layout.EN_COLEMAK_DH_MATRIX,
-    Layout.EN_CONSOC_1_0_ISO,
     Layout.EN_CONSOC_0_1_ISO,
     Layout.EN_CONSOC_0_2_ISO,
+    Layout.EN_CONSOC_1_0_A_ISO,
+    Layout.EN_CONSOC_1_0_B_ISO,
     Layout.EN_WORKMAN,
     Layout.EN_CANARY,
     Layout.EN_CANARY_MATRIX,
@@ -1247,7 +1265,7 @@ export class Layout implements XEnumItem {
     Layout.EN_ENTHIUM_V10,
     Layout.EN_UK,
     Layout.EN_JP,
-	  Layout.EN_MTGAP,
+    Layout.EN_MTGAP,
     Layout.EL_GR,
     Layout.CS_CZ,
     Layout.DA_DK,

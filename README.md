@@ -15,20 +15,21 @@ ISO 102 angle mod, conventional keyboard
 
 ## Comparison to other layouts
 
-| Layout     | SFBs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
-| ---------- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| 0.1        | 0.65 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
-| 0.2        | 0.60 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
-| 0.3        | 0.66 | 0.20  | 0.06 | 0.30     | 2.75  | 53.33 | -2.48   |
-| 1.0        | 0.58 | 0.20  | 0.11 | 0.31     | 2.79  | 53.52 | -2.48   |
-| 1.0b*      | 0.58 | 0.20  | 0.11 | 0.05     | 2.79  | 53.52 | -2.48   |
-|            |      |       |      |          |       |       |         |
-| Really     | 0.68 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
-| APTv3      | 0.81 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
-| Graphite   | 0.68 | 0.24  | 0.87 | 0.95     | 1.80  | 46.01 | -1.74   |
-| Sturdy     | 0.62 | 0.20  | 1.58 | 0.42     | 5.01  | 50.10 | -5.44   |
-| Canary     | 0.66 | 0.15  | 1.75 | 0.42     | 6.95  | 50.36 | -6.34   |
-| Colemak-dh | 0.91 | 0.41  | 1.27 | 0.15     | 9.22  | 49.20 | -2.93   |
+| Layout     | SFBs | SFSs | DSFBs | LSBs | Scissors | Redir | Rolls | Balance |
+| ---------- | ---- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
+| 0.1        | 0.65 | 3.03 | 0.21  | 0.06 | 0.06     | 2.79  | 53.49 | -2.57   |
+| 0.2        | 0.60 | 3.03 | 0.31  | 0.14 | 0.11     | 2.06  | 53.21 | -2.55   |
+| 0.3        | 0.66 | 3.06 | 0.20  | 0.06 | 0.30     | 2.75  | 53.33 | -2.48   |
+| 1.0        | 0.58 | 2.90 | 0.20  | 0.11 | 0.31     | 2.79  | 53.52 | -2.48   |
+| 1.0b*      | 0.58 | 2.90 | 0.20  | 0.11 | 0.05     | 2.79  | 53.52 | -2.48   |
+|            |      |      |       |      |          |       |       |         |
+| Really     | 0.68 | 3.16 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
+| APTv3      | 0.81 | 3.09 | 0.31  | 0.33 | 0.11     | 5.57  | 49.55 | -3.37   |
+| Graphite   | 0.68 | 2.73 | 0.24  | 0.87 | 0.95     | 1.80  | 46.01 | -1.74   |
+| Sturdy     | 0.62 | 2.80 | 0.20  | 1.58 | 0.42     | 5.01  | 50.10 | -5.44   |
+| Canary     | 0.66 | 3.65 | 0.15  | 1.75 | 0.42     | 6.95  | 50.36 | -6.34   |
+| Colemak-dh | 0.91 | 4.24 | 0.41  | 1.27 | 0.15     | 9.22  | 49.20 | -2.93   |
+| QWERTY     | 4.38 | 5.45 | 1.43  | 4.55 | 1.46     | 6.22  | 40.76 | +6.69   |
 
 \*benchmark edition: U & apostrophe swapped
 
@@ -40,7 +41,7 @@ ISO 102 angle mod, conventional keyboard
 
 0.3 [cyanophage link](https://cyanophage.github.io/playground.html?layout=ghdwz%2F%27loy%2Ccntsb-erai.mkvfj%3Buxq%5Cp%5Eback&mode=iso&lan=english&thumb=l)
 
-1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhgz%2F%27loy%2Cstncp-erai.kmwbj%3Buxq%5Cv%5Eback&mode=iso&lan=english&thumb=l)
+1.0 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhgz%5C%27loy%2Cstncp-erai.kmwbj%3Buxq%2Fv%5Eback&mode=iso&lan=english&thumb=l)
 
 ## Ascii Version
 
@@ -66,9 +67,9 @@ p  m  k  v  f  j  ;  u  x  q  \
 
 1.0
 1  2  3  4  5  6  7  8  9  0  `  =
-f  d  h  g  z  /  '  l  o  y  ,  [
+f  d  h  g  z  \  '  l  o  y  ,  [
 s  t  n  c  b  -  e  r  a  i  .  ]
-v  k  m  w  p  j  ;  u  x  q  \
+v  k  m  w  p  j  ;  u  x  q  /
 ```
 
 ## Attachments

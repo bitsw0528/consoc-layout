@@ -75,13 +75,13 @@ export const ISO_102: GeometryDict = {
     labels: [{ text: "Tab" }],
     zones: ["pinky", "right", "digit"],
   },
-  CapsLock: {
+  Backspace: {
     x: 0,
     y: 1,
     w: 1.5,
     h: 1,
-    labels: [{ text: "Caps Lock" }],
-    zones: ["pinky", "left", "top"],
+    labels: [{ text: "Backspace" }],
+    zones: ["pinky", "left", "home"],
   },
   KeyQ: {
     x: 1.5,
@@ -152,13 +152,13 @@ export const ISO_102: GeometryDict = {
     shape: "m 0 0 l 0 38 l 10 0 l 0 40 l 48 0 l 0 -78 z",
     zones: ["pinky", "right", "top"],
   },
-  Backspace: {
+  CapsLock: {
     x: 0,
     y: 2,
     w: 1.75,
     h: 1,
-    labels: [{ text: "Backspace" }],
-    zones: ["pinky", "left", "home"],
+    labels: [{ text: "Caps Lock" }],
+    zones: ["pinky", "left", "top"],
   },
   KeyA: {
     x: 1.75,

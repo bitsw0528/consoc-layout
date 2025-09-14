@@ -1,8 +1,10 @@
 # consoc Keyboard Layout
 
 ## Introduction & Merits
-not bad on all stats  
-ISO 102 angle mod, conventional keyboard  
+
+solid across all metrics  
+ISO 102 conventional keyboard  
+developed by the Concorde Society  
 
 ## Layout
 
@@ -14,26 +16,24 @@ ISO 102 angle mod, conventional keyboard
 
 ## Comparison to other layouts
 
-| Layout     | SFBs | SFSs | DSFBs | LSBs | Scissors   | Redir | Rolls | Balance |
-| ---------- | ---- | ---- | ----- | ---- | ---------- | ----- | ----- | ------- |
-| consoc     | 0.58 | 2.91 | 0.19  | 0.11 | 0.32       | 2.79  | 53.52 | -2.48   |
-| consoc_b*  | 0.58 | 2.91 | 0.19  | 0.11 | 0.07       | 2.79  | 53.52 | -2.48   |
-| new idea   | 0.61 | 2.74 | 0.19  | 0.20 | 0.55(0.11) | 2.57  | 53.76 | -5.21   |
-|            |      |      |       |      |            |       |       |         |
-| Really     | 0.68 | 3.16 | 0.38  | 0.13 | 0.08       | 6.81  | 51.61 | +2.00   |
-| APTv3      | 0.81 | 3.09 | 0.31  | 0.33 | 0.11       | 5.57  | 49.55 | -3.37   |
-| Graphite   | 0.68 | 2.73 | 0.24  | 0.87 | 0.95       | 1.80  | 46.01 | -1.74   |
-| Sturdy     | 0.62 | 2.80 | 0.20  | 1.58 | 0.42       | 5.01  | 50.10 | -5.44   |
-| Canary     | 0.66 | 3.65 | 0.15  | 1.75 | 0.42       | 6.95  | 50.36 | -6.34   |
-| Colemak_dh | 0.91 | 4.24 | 0.41  | 1.27 | 0.15       | 9.22  | 49.20 | -2.93   |
-| QWERTY     | 4.38 | 5.45 | 1.43  | 4.55 | 1.46       | 6.22  | 40.76 | +6.69   |
-\*benchmark edition: U & apostrophe swapped
+| Layout  | SFBs | SFSs | LSFSs | LSBs | Scissors | Redir | Rolls | Balance |
+| ------- | ---- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
+| consoc  | 0.53 | 2.86 | 0.19  | 0.11 | 0.07     | 2.75  | 53.72 | -2.00   |
+|         |      |      |       |      |          |       |       |         |
+| Really  | 0.68 | 3.16 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
+| APTv3   | 0.81 | 3.09 | 0.31  | 0.33 | 0.11     | 3.60  | 49.55 | -3.37   |
+| Gallium | 0.64 | 2.74 | 0.24  | 0.96 | 0.95     | 1.93  | 46.07 | -1.66   |
+| Sturdy  | 0.62 | 2.80 | 0.20  | 1.58 | 0.42     | 2.85  | 50.10 | -5.44   |
+| Canary  | 0.66 | 3.65 | 0.15  | 1.75 | 0.42     | 3.39  | 50.36 | -6.34   |
+| Cmk_DH  | 0.91 | 4.24 | 0.41  | 1.27 | 0.15     | 5.33  | 49.20 | -2.93   |
+| QWERTY  | 4.38 | 5.45 | 1.43  | 4.55 | 1.46     | 6.22  | 40.76 | +6.69   |
+
+\*double tap space bar for period, type only ellipses using 'full stop' key  
+\*apostrophe and U swapped by default for greater comfort  
 
 ## Cyanophage Layout Playground
 
 [cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwj%2F%27loy%2Cstncp-erai.kmgbz%3Buxq%5Cv%5Eback&mode=iso&lan=english&thumb=l)
-
-[new idea](https://cyanophage.github.io/playground.html?layout=fdhgj%2Furoy%2Cstlcb-enai.kmwpz%3B%27xq%5Cv%5Eback&mode=iso&lan=english&thumb=l)
 
 ## Ascii Version
 
@@ -41,8 +41,8 @@ ISO 102 angle mod, conventional keyboard
 consoc
 
 1  2  3  4  5  6  7  8  9  0  `  =
-f  d  h  w  j  /  '  l  o  y  ,  [
-s  t  n  c  b  -  e  r  a  i  .  ]
+ f  d  h  w  j  /  '  l  o  y  ,  [
+  s  t  n  c  b  -  e  r  a  i  .  ]
 v  k  m  g  p  z  ;  u  x  q  \
 ```
 
@@ -70,6 +70,18 @@ Log out or restart mac, remember to save your clipboard
 in **System Settings.app** : Keyboard : Text Input : Edit : left bottom corner '+'
 
 now CONSOC layout should be in the place, add it, and all done!
+
+## keybr.com personal configuration
+
+uncheck box **'Prefere natural words' 'Colored keys' 'Highlight keys'**
+
+check box **'Sort letters in the order of keyboard keys'**
+
+drag slider to the right **'Add words to lessons'**
+
+manually adjust the **“Unlock more letters”** slider and the **“Unlock the next key only when the previous keys are also above the target speed”** checkbox to set the right number of keys for practice.
+
+be aware that the Consoc layout puts extra strain on the ring and pinky fingers, so expect some overload and discomfort before you are fully adapted.
 
 ## keybr.com offline practice setup
 
@@ -159,5 +171,22 @@ in **safari.app** visit website:
 http://localhost:3000
 
 personally I'd use safari 'hide distracting items' to hide the sidebar, now it should be looking much nicer~
+
+---
+
+if you accidentally logged out your account, and visiting http://localhost:3000/login/xyz doesn't work, first in **terminal.app** the one running the server, use control⌃ + C to terminate keybr.com
+
+enter these commands to create a new access token and restart server:
+
+```
+sqlite3 ~/.local/state/keybr/database.sqlite \
+"INSERT OR REPLACE INTO user_login_request (id, email, access_token, created_at) VALUES (1, 'user@localhost', 'xyz', 9999999999999);"
+```
+
+```
+npm start
+```
+
+then visit http://localhost:3000/login/xyz to login again
 
 ## all thing's done, have fun!

@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="126" id="-29696" name="consoc" maxout="1">
+<keyboard group="126" id="-29238" name="consoc" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -49,16 +49,16 @@
             <key code="5" output="b"/>
             <key code="6" output="k"/>
             <key code="7" output="m"/>
-            <key code="8" output="w"/>
+            <key code="8" output="g"/>
             <key code="9" output="p"/>
             <key code="10" output="§"/>
-            <key code="11" output="j"/>
+            <key code="11" output="z"/>
             <key code="12" output="f"/>
             <key code="13" output="d"/>
             <key code="14" action="e"/>
-            <key code="15" output="g"/>
+            <key code="15" output="w"/>
             <key code="16" action="y"/>
-            <key code="17" output="z"/>
+            <key code="17" output="j"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -167,16 +167,16 @@
             <key code="5" output="B"/>
             <key code="6" output="K"/>
             <key code="7" output="M"/>
-            <key code="8" output="W"/>
+            <key code="8" output="G"/>
             <key code="9" output="P"/>
             <key code="10" output="±"/>
-            <key code="11" output="J"/>
+            <key code="11" output="Z"/>
             <key code="12" output="F"/>
             <key code="13" output="D"/>
             <key code="14" action="E"/>
-            <key code="15" output="G"/>
+            <key code="15" output="W"/>
             <key code="16" action="Y"/>
-            <key code="17" output="Z"/>
+            <key code="17" output="J"/>
             <key code="18" output="!"/>
             <key code="19" output="@"/>
             <key code="20" output="#"/>
@@ -285,16 +285,16 @@
             <key code="5" output="B"/>
             <key code="6" output="K"/>
             <key code="7" output="M"/>
-            <key code="8" output="W"/>
+            <key code="8" output="G"/>
             <key code="9" output="P"/>
             <key code="10" output="§"/>
-            <key code="11" output="J"/>
+            <key code="11" output="Z"/>
             <key code="12" output="F"/>
             <key code="13" output="D"/>
             <key code="14" action="E"/>
-            <key code="15" output="G"/>
+            <key code="15" output="W"/>
             <key code="16" action="Y"/>
-            <key code="17" output="Z"/>
+            <key code="17" output="J"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>

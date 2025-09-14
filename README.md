@@ -79,6 +79,8 @@ check box **'Sort letters in the order of keyboard keys'**
 
 drag slider to the right **'Add words to lessons'**
 
+below avatar the left icon **'sun/moon'** chose a custom theme, right icon **'enter full screen'** creates a more immersive environment
+
 manually adjust the **“Unlock more letters”** slider and the **“Unlock the next key only when the previous keys are also above the target speed”** checkbox to set the right number of keys for practice.
 
 be aware that the Consoc layout puts extra strain on the ring and pinky fingers, so expect some overload and discomfort before you are fully adapted.

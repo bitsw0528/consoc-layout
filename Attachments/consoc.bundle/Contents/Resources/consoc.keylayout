@@ -1,6 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="126" id="-29238" name="consoc" maxout="1">
+<!--Last edited by Ukelele version 442 on 2025-10-17 at 12:45 (GMT+10)-->
+<keyboard group="126" id="-18835" name="consoc" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -85,7 +86,7 @@
             <key code="41" output="i"/>
             <key code="42" output="]"/>
             <key code="43" output="x"/>
-            <key code="44" output="/"/>
+            <key code="44" output="\"/>
             <key code="45" action="n"/>
             <key code="46" output="u"/>
             <key code="47" output="q"/>
@@ -203,7 +204,7 @@
             <key code="41" output="I"/>
             <key code="42" output="}"/>
             <key code="43" output="X"/>
-            <key code="44" output="?"/>
+            <key code="44" output="|"/>
             <key code="45" action="N"/>
             <key code="46" output="U"/>
             <key code="47" output="Q"/>
@@ -321,7 +322,7 @@
             <key code="41" output="I"/>
             <key code="42" output="]"/>
             <key code="43" output="X"/>
-            <key code="44" output="/"/>
+            <key code="44" output="\"/>
             <key code="45" action="N"/>
             <key code="46" output="U"/>
             <key code="47" output="Q"/>
@@ -1036,7 +1037,7 @@
             <when state="s5" output="Ù"/>
         </action>
         <action id="Y">
-            <when state="none" output="|"/>
+            <when state="none" output="?"/>
             <when state="s2" output="Ÿ"/>
         </action>
         <action id="`">
@@ -1084,7 +1085,7 @@
             <when state="s5" output="ù"/>
         </action>
         <action id="y">
-            <when state="none" output="\"/>
+            <when state="none" output="/"/>
             <when state="s2" output="ÿ"/>
         </action>
         <action id="¨">

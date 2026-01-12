@@ -1,14 +1,20 @@
 # consoc Keyboard Layout
 
-## Introduction & Merits
+## Introduction
 
-solid across all metrics  
-ISO 102 conventional keyboard  
-developed by the Concorde Society  
+This new approach challenges the traditional assumption that both strong in-rolls and vowel-hand-dominant rolling must be prioritized, as well as the community belief that high roll frequency is inherently unsalvageable due to its correlation with redirects.
+
+Additionally, with the new **consoc** core layout structure, it achieves exceptional scores across most metrics in common benchmarks.
+
+The layout adheres to the ISO 102 conventional keyboard standard and includes dedicated symbol layers optimized for efficient symbol entry and numpad-style usage.
+
+Developed by the Concorde Society, this work is released under the Creative Commons Zero v1.0 Universal license.
 
 ## Layout
 
 
+
+\*suggest remapping Tab to Delete and using it with the left pinky.
 
 ## Heatmap
 
@@ -18,7 +24,7 @@ developed by the Concorde Society
 
 | Layout  | SFBs | SFSs | LSFSs | LSBs | Scissors | Redir | Rolls | Balance |
 | ------- | ---- | ---- | ----- | ---- | -------- | ----- | ----- | ------- |
-| consoc  | 0.53 | 2.86 | 0.19  | 0.11 | 0.07     | 2.75  | 53.72 | -2.00   |
+| consoc  | 0.52 | 2.85 | 0.19  | 0.06 | 0.12     | 2.75  | 53.74 | -2.00   |
 |         |      |      |       |      |          |       |       |         |
 | Really  | 0.68 | 3.16 | 0.38  | 0.13 | 0.08     | 6.81  | 51.61 | +2.00   |
 | APTv3   | 0.81 | 3.09 | 0.31  | 0.33 | 0.11     | 3.60  | 49.55 | -3.37   |
@@ -28,12 +34,12 @@ developed by the Concorde Society
 | Cmk_DH  | 0.91 | 4.24 | 0.41  | 1.27 | 0.15     | 5.33  | 49.20 | -2.93   |
 | QWERTY  | 4.38 | 5.45 | 1.43  | 4.55 | 1.46     | 6.22  | 40.76 | +6.69   |
 
-\*double tap space bar for period, type only ellipses using 'full stop' key  
-\*apostrophe and U swapped by default for greater comfort  
+\*double-tap the space bar to insert a period; use the “full stop” key only for ellipses.  
+\*the apostrophe and U keys should be swapped for comfort; the raw layout favors benchmark scores.  
 
 ## Cyanophage Layout Playground
 
-[cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwj%2F%27loy%2Cstncp-erai.kmgbz%3Buxq%5Cv%5Eback&mode=iso&lan=english&thumb=l)
+[cyanophage link](https://cyanophage.github.io/playground.html?layout=fdhwj%2Fuloy%2Cstncb-erai.kmgpz%3B%27xq%5Cv%5Eback&mode=iso&lan=english&thumb=l)
 
 ## Ascii Version
 
@@ -44,6 +50,18 @@ consoc
  f  d  h  w  j  /  '  l  o  y  ,  [
   s  t  n  c  b  -  e  r  a  i  .  ]
 v  k  m  g  p  z  ;  u  x  q  \
+
+option
+
+ !  <  >  &  ~  $  {  \  }  "  ,
+  ?  -  +  =  .  @  (  .  )  '
+%  *  /  |  ⇥  …  #  [  :  ]  _
+
+option+shift
+
+                +  4  5  6  .  ,
+                 -  1  2  3  0
+               /  *  7  8  9  =
 ```
 
 ## Attachments
@@ -174,7 +192,13 @@ http://localhost:3000
 
 personally I'd use safari 'hide distracting items' to hide the sidebar, now it should be looking much nicer~
 
+change layout to **Consoc** and Geometry to **ISO 102**
+
+# all thing's done, have fun!
+
 ---
+
+## keybr.com error Q&A
 
 if you accidentally logged out your account, and visiting http://localhost:3000/login/xyz doesn't work, first in **terminal.app** the one running the server, use control⌃ + C to terminate keybr.com
 
@@ -191,4 +215,101 @@ npm start
 
 then visit http://localhost:3000/login/xyz to login again
 
-## all thing's done, have fun!
+---
+
+if server terminated improperly, restarting it may run into a "server currently unavailable" error on browser, run:
+
+```
+npm rebuild
+npm start
+```
+
+this should solve the server problem
+
+---
+
+if port conflict happens, in:
+
+```
+~/Users/bitsw/keybr.com/
+```
+
+change http://localhost:3000/ to e.g. port 5173: http://localhost:5173/ , and add
+
+```
+SERVER_PORT=5173
+SERVER_PORT_WS=5174
+```
+
+save, then npm start
+
+if cannot connect to server via http://localhost:... try 127.0.0.1:... , if this works, in safari>privacy>clear website data cleanup localhost's cache, and revisit localhost
+
+---
+
+if your proxy is set global mode, and cannot establish connection to server:
+
+```
+unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
+npm start
+```
+
+---
+
+if process keeps restarting, endlessly printing status in terminal, first kill all related keybr.com process in activity monitor, than restart server again.
+
+---
+
+## For users switching from keybr.com to monkeytype
+
+>[!suggest]
+>Create the web app using a Dock shortcut.
+>The configuration is downloaded together with the profile, so make modifications beforehand using the provided links.
+>Before creating the web app, disable all extensions to prevent them from appearing in the web app top bar.
+>Then go to Share → Add to Dock.
+>Finally, log in to the account again and upload the background image.
+
+---
+
+at https://monkeytype.com/settings?highlight=theme
+
+| background  | #dbe6bc |
+| ----------- | ------- |
+| sub alt     | #7a9c6c |
+| main        | #4b6242 |
+| sub         | #748263 |
+| caret       | #374434 |
+| text        | #374434 |
+| error       | #d99b7a |
+| extra error | #d99b7a |
+
+or use the link https://monkeytype.com?customTheme=eyJjIjpbIiNkYmU2YmMiLCIjNGI2MjQyIiwiIzM3NDQzNCIsIiM3NDgyNjMiLCIjN2E5YzZjIiwiIzM3NDQzNCIsIiNkOTliN2EiLCIjZDk5YjdhIiwiI2NhNDc1NCIsIiM3ZTJhMzMiXSwiaSI6IiIsInMiOiJjb3ZlciIsImYiOlswLDEsMSwxXX0=
+
+---
+
+at https://monkeytype.com/settings?highlight=importexportSettings
+
+import
+
+```
+{"theme":"serika_dark","themeLight":"serika","themeDark":"serika_dark","autoSwitchTheme":false,"customTheme":true,"customThemeColors":["#dbe6bc","#4b6242","#374434","#748263","#7a9c6c","#374434","#d99b7a","#d99b7a","#ca4754","#7e2a33"],"favThemes":[],"showKeyTips":true,"smoothCaret":"medium","codeUnindentOnBackspace":false,"quickRestart":"esc","punctuation":false,"numbers":false,"words":50,"time":30,"mode":"time","quoteLength":[1],"language":"english_10k","fontSize":3,"freedomMode":false,"difficulty":"normal","blindMode":false,"quickEnd":false,"caretStyle":"underline","paceCaretStyle":"default","flipTestColors":true,"layout":"default","funbox":[],"confidenceMode":"off","indicateTypos":"off","compositionDisplay":"replace","timerStyle":"mini","liveSpeedStyle":"off","liveAccStyle":"off","liveBurstStyle":"off","colorfulMode":false,"randomTheme":"off","timerColor":"main","timerOpacity":"1","stopOnError":"letter","showAllLines":false,"keymapMode":"off","keymapStyle":"staggered","keymapLegendStyle":"lowercase","keymapLayout":"overrideSync","keymapShowTopRow":"layout","keymapSize":1,"fontFamily":"Ubuntu_Mono","smoothLineScroll":false,"alwaysShowDecimalPlaces":true,"alwaysShowWordsHistory":false,"singleListCommandLine":"on","capsLockWarning":true,"playSoundOnError":"off","playSoundOnClick":"off","soundVolume":0.5,"startGraphsAtZero":true,"showOutOfFocusWarning":true,"paceCaret":"off","paceCaretCustomSpeed":100,"repeatedPace":true,"accountChart":["on","on","on","on"],"minWpm":"off","minWpmCustomSpeed":100,"highlightMode":"letter","typingSpeedUnit":"wpm","ads":"result","hideExtraLetters":false,"strictSpace":false,"minAcc":"off","minAccCustom":90,"monkey":false,"repeatQuotes":"off","oppositeShiftMode":"off","customBackground":"","customBackgroundSize":"cover","customBackgroundFilter":[0,1,1,1],"customLayoutfluid":["qwerty","dvorak","colemak"],"customPolyglot":["english","spanish","french","german"],"monkeyPowerLevel":"off","minBurst":"off","minBurstCustomSpeed":100,"burstHeatmap":false,"britishEnglish":true,"lazyMode":false,"showAverage":"off","showPb":false,"tapeMode":"off","tapeMargin":50,"maxLineWidth":0,"playTimeWarning":"off"}
+```
+
+| quick restart              | esc         |
+| -------------------------- | ----------- |
+| british english            | on          |
+| language                   | english 10k |
+| stop on error              | letter      |
+| caret style                | _           |
+| always show decimal places | on          |
+| font size                  | 3           |
+| font family                | Ubuntu Mono |
+| flip test colors           | on          |
+
+---
+
+at https://monkeytype.com/settings?highlight=customBackgroundSize
+
+upload background image bg-garden.png in **Attachments**
+
+## all set, enjoy!

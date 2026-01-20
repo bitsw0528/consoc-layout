@@ -50,18 +50,6 @@ consoc
  f  d  h  w  j  /  '  l  o  y  ,  [
   s  t  n  c  b  -  e  r  a  i  .  ]
 v  k  m  g  p  z  ;  u  x  q  \
-
-option
-
- !  <  >  &  ~  $  {  \  }  "  ,
-  ?  -  +  =  .  @  (  .  )  '
-%  *  /  |  ⇥  …  #  [  :  ]  _
-
-option+shift
-
-                +  4  5  6  .  ,
-                 -  1  2  3  0
-               /  *  7  8  9  =
 ```
 
 ## Attachments
